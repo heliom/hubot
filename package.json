@@ -1,0 +1,28 @@
+{
+  "name":        "heliom-hubot",
+  "version":     "2.4.8",
+  "author":      "GitHub Inc.",
+  "keywords":    "github hubot hipchat bot",
+  "description": "A simple helpful Robot for your ConferenceBadge.com",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "http://github.com/github/hubot/raw/master/LICENSE"
+  }],
+
+  "repository" : {
+    "type": "git",
+    "url":  "https://github.com/heliom/hubot.git"
+  },
+
+  "dependencies": {
+    "hubot":         ">=2.4.8",
+    "hubot-scripts": ">= 2.4.1",
+    "hubot-hipchat": ">= 2.4.5",
+    "optparse":      "1.0.3"
+  },
+
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm":  ">=1.1.x"
+  }
+}
